@@ -13,12 +13,12 @@ DHT dht(DHTPIN, DHTTYPE);
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
 
-char auth[] = "YourAuthToken";
+char auth[] = "YourAuthToken";// You will get this Auth Token by the Blynk app through your registered mail ID.Simply copy and paste it here.
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "YourNetworkName";
-char pass[] = "YourPassword";
+char ssid[] = "YourNetworkName"; // This is your Network name(device name in hotspot) which you want to enter here.
+char pass[] = "YourPassword";// Your network wifipassword want to enter here.
 
 BlynkTimer timer;
 
